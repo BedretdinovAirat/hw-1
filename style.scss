@@ -11,8 +11,10 @@
     font-size: 64px;
     line-height: 78px;
     color: #FFFFFF;
-    padding-top: 217px;
+    padding-top: 217px; // 
     margin-left: 120px;
+    display: flex;
+    align-items: center;
     // width: 788.78px;
 }
 .main__text {
@@ -25,6 +27,8 @@
     // width: 481px;
     margin-left: 60px;
     padding-bottom: 57px;
+    // display: flex;
+    // align-items: center;
 }
 .main__button {
     margin-left: 60px;
@@ -53,17 +57,19 @@
 }
 .product {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-wrap: wrap;
     padding-top: 128px;
     padding-bottom: 128px;
+    gap: 15px;
 }
 .product__element {
     box-sizing: border-box;
     position: relative;
-    background-repeat: 16px;
+    background-repeat: no-repeat;
     text-align: left;
     cursor: pointer;
-    width: 385px;
+    width: 379px;
     height: 300px;
     transition: all 0.3s;
 }
@@ -88,6 +94,9 @@
     bottom: 32px;
     left: 32px;
 }
+// .center {
+//     position: center;
+// }
 // мобильная версия
 @import 'mobile';
 
