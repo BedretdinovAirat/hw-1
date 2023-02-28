@@ -1,47 +1,27 @@
-// @media (min-width: 320px) {
-    .center__mobile {
-        padding-left: 16px;
-        padding-right: 16px;  
-    }
-// .main__image {
-//      height: 735px;
-//      width: 360px;
-// }
-.main__header {
+@media (max-width: 768px) {
+  .offer__container {
+    text-align: center;
+  }
+  .offer__title {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
-    line-height: 39px;
-    // display: flex;
-    // align-items: center;
-    // text-align: center;    
+    line-height: 39px;  
     color: #FFFFFF;
   }
-      .main__text {
-      font-family: 'Montserrat';
-      font-style: normal;
-      font-weight: 300;
-      font-size: 14px;
-      line-height: 22px;
-    //   display: flex;
-    //   align-items: center;
-    //   text-align: center;
-      color: #FFFFFF;
+  .offer__text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px; 
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
   }
-      .main__button {
-      font-family: 'Montserrat';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 18px;
-      line-height: 22px;
-    //   display: flex;
-    //   align-items: center;
-      color: #FFFFFF;
+  .game__image {
+    display: flex;
   }
-.product {
-    // width: 343px;
-    // height: 300px;
-    gap: 8px;
 }
 //  тут закрывающий 
