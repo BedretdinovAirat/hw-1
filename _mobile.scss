@@ -7,7 +7,8 @@
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
-    line-height: 39px;  
+    line-height: 39px;
+    align-items: center;  
     color: #FFFFFF;
   }
   .offer__text {
@@ -17,11 +18,19 @@
     font-size: 14px;
     line-height: 22px; 
     color: #FFFFFF;
-    display: flex;
+    align-items: center;
+  }
+  .offer__button {
     align-items: center;
   }
   .game__image {
     display: flex;
+  }
+  .game-list__container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
   }
 }
 //  тут закрывающий 
