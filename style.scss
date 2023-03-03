@@ -24,7 +24,7 @@
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
-    max-width: 1440px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 16px;
 }
@@ -33,10 +33,18 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    gap: 10px;
+    gap: 32px;
+}
+.game {
+    border-radius: 16px;
+    background-position: center;
+    width: 379px;
+    height: 300px;
+    padding: 32px;
 }
 .offer__title {
-    width: max;
+    max-width: 680px;
+    margin-bottom: 30px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -48,6 +56,8 @@
     align-items: center;
 }
 .offer__text {
+    max-width: 500px;
+    margin-bottom: 30px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 300;
@@ -55,6 +65,9 @@
     line-height: 32px;
     color: #FFFFFF;
     width: max;
+    span {
+        font-weight: 700;
+    }
 }
 .offer__button {
     font-family: 'Montserrat';
@@ -104,21 +117,12 @@
 }
 .game--1 {
     background-image: url(./img/elementimg1.png);
-    background-position: center;
-    width: 379px;
-    height: 300px;
 }
 .game--2 {
     background-image: url(./img/elementimg2.png);
-    background-position: center;
-    width: 379px;
-    height: 300px;
 }
 .game--3 {
     background-image: url(./img/elementimg3.png);
-    background-position: center;
-    width: 379px;
-    height: 300px;
 }
 .a {
     text-decoration: none;
