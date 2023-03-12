@@ -44,15 +44,16 @@
 // } else if (a >= 9 || a <= 11) {
 //     console.log('Осень');
 // }
-
-let arrWord = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
-arrWord = arrWord.sort(() => Math.random() - 0.5);
-alert(arrWord);
-let answer = prompt('Чему равнялся первый элемент массива? Чему равнялся первый элемент массива?');
-if (answer === arrWord[0, -1]) {
-    console.log('Поздравляем!Вы угадали!');
-} else if (answer === arrWord[0] || answer === [-1]) {
-    console.log('Вы были близки к победе!');
-} else {
-    console.log('Сожалею, но ваш ответ неверный!');
+function game() {
+    let arrWord = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+    arrWord = arrWord.sort(() => Math.random() - 0.5);
+    alert(arrWord);
+    let answer = prompt('Чему равнялся первый элемент массива? Чему равнялся первый элемент массива?');
+    if (answer === arrWord[0, -1]) {
+        console.log('Поздравляем!Вы угадали!');
+    } else if (answer === arrWord[0] || answer === [-1]) {
+        console.log('Вы были близки к победе!');
+    } else {
+        console.log('Сожалею, но ваш ответ неверный!');
+    }
 }

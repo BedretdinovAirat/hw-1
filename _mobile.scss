@@ -37,5 +37,73 @@
     left: 50%;
     transform: translate(-50%, 0);
   }
+  .time__year_block {
+    width: 240px;
+    height: 16px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .time__year_header {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    text-align: center;  
+    color: #FFFFFF;
+  }
+  .time__year {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+  }
+  .time__year_text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;  
+    color: #FFFFFF;
+  }
+  .game-word {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+  }
+  .game-word_block {
+    width: 240px;
+    height: 160px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .game-word_header {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .game-word_text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;  
+    color: #FFFFFF;
+  }
 }
 //  тут закрывающий 
