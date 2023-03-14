@@ -39,9 +39,10 @@
   }
   .time__year_block {
     width: 240px;
-    height: 16px;
+    height: 160px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    // flex-wrap: wrap;
   }
   .time__year_header {
     font-family: 'Montserrat';
@@ -56,9 +57,10 @@
   }
   .time__year {
     display: flex;
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
     text-align: center;
-    justify-content: space-between;
+    // justify-content: space-between;
+    flex-direction: column;
   }
   .time__year_text {
     font-family: 'Montserrat';
@@ -73,15 +75,16 @@
   }
   .game-word {
     display: flex;
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
     text-align: center;
-    justify-content: space-between;
+    flex-direction: column;
+    // justify-content: space-between;
   }
   .game-word_block {
     width: 240px;
     height: 160px;
     display: flex;
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
   }
   .game-word_header {
     font-family: 'Montserrat';

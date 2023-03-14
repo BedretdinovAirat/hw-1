@@ -89,7 +89,7 @@
 .game-list {
     background-image: url(./img/backelement.png);
     background-position: center;
-    height: 556px;    
+    // height: 556px;    
 }
 .game {
     display: flex;
@@ -159,7 +159,10 @@
     gap: 32px;
     padding: 0px;
     width: 485px;
-    height: 333px;
+    // height: 333px;
+}
+.time__year_img {
+    width: 100%;
 }
 .time__year {
     display: flex;
@@ -184,7 +187,7 @@
     gap: 32px;
     padding: 0px;
     width: 481px;
-    height: 322px;
+    // height: 322px;
 }
 .game-word_header {
     font-family: 'Montserrat';
@@ -196,8 +199,11 @@
     align-items: center;
     color: #FFFFFF;
 }
+.game-word_img {
+    width: 100%;
+}
 .game-word_text {
-    width: 588px;
+    // width: 588px;
     height: 64px;
     font-family: 'Montserrat';
     font-style: normal;
